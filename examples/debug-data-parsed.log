@@ -1,0 +1,732 @@
+Package received at Sat, 08 Sep 2018 09:58:14 GMT:
+{
+    "meterType": "EMULATOR",
+    "version": null,
+    "timestamp": "2018-09-08T09:58:14.000Z",
+    "equipmentId": "1234567890123456789012345678901234",
+    "textMessage": {
+        "codes": "",
+        "message": ""
+    },
+    "electricity": {
+        "received": {
+            "tariff1": {
+                "reading": 100.5,
+                "unit": "kWh"
+            },
+            "tariff2": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "actual": {
+                "reading": 0.5,
+                "unit": "kW"
+            }
+        },
+        "delivered": {
+            "tariff1": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "tariff2": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "actual": {
+                "reading": 0,
+                "unit": "kW"
+            }
+        },
+        "tariffIndicator": 1,
+        "threshold": null,
+        "switchPosition": null,
+        "numberOfPowerFailures": 1,
+        "numberOfLongPowerFailures": 2,
+        "longPowerFailureLog": {
+            "count": 1,
+            "log": [
+                {
+                    "startOfFailure": "1999-12-31T22:43:34.000Z",
+                    "endOfFailure": "1999-12-31T23:00:14.000Z",
+                    "duration": 1000,
+                    "unit": "s"
+                }
+            ]
+        },
+        "voltageSags": {
+            "L1": 0,
+            "L2": 0,
+            "L3": 0
+        },
+        "voltageSwell": {
+            "L1": 0,
+            "L2": 0,
+            "L3": 0
+        },
+        "instantaneous": {
+            "current": {
+                "L1": {
+                    "reading": 1,
+                    "unit": "A"
+                },
+                "L2": {
+                    "reading": 2,
+                    "unit": "A"
+                },
+                "L3": {
+                    "reading": 3,
+                    "unit": "A"
+                }
+            },
+            "power": {
+                "positive": {
+                    "L1": {
+                        "reading": 0.001,
+                        "unit": "kW"
+                    },
+                    "L2": {
+                        "reading": 0.002,
+                        "unit": "kW"
+                    },
+                    "L3": {
+                        "reading": 0.003,
+                        "unit": "kW"
+                    }
+                },
+                "negative": {
+                    "L1": {
+                        "reading": 0.004,
+                        "unit": "kW"
+                    },
+                    "L2": {
+                        "reading": 0.005,
+                        "unit": "kW"
+                    },
+                    "L3": {
+                        "reading": 0.006,
+                        "unit": "kW"
+                    }
+                }
+            }
+        }
+    },
+    "gas": {
+        "deviceType": "003",
+        "equipmentId": "2345678901234567890123456789012345",
+        "timestamp": "2018-09-08T09:58:13.000Z",
+        "reading": 50,
+        "unit": "m3",
+        "valvePosition": null
+    }
+}
+
+Package received at Sat, 08 Sep 2018 09:58:15 GMT:
+{
+    "meterType": "EMULATOR",
+    "version": null,
+    "timestamp": "2018-09-08T09:58:15.000Z",
+    "equipmentId": "1234567890123456789012345678901234",
+    "textMessage": {
+        "codes": "",
+        "message": ""
+    },
+    "electricity": {
+        "received": {
+            "tariff1": {
+                "reading": 101,
+                "unit": "kWh"
+            },
+            "tariff2": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "actual": {
+                "reading": 0.5,
+                "unit": "kW"
+            }
+        },
+        "delivered": {
+            "tariff1": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "tariff2": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "actual": {
+                "reading": 0,
+                "unit": "kW"
+            }
+        },
+        "tariffIndicator": 1,
+        "threshold": null,
+        "switchPosition": null,
+        "numberOfPowerFailures": 1,
+        "numberOfLongPowerFailures": 2,
+        "longPowerFailureLog": {
+            "count": 1,
+            "log": [
+                {
+                    "startOfFailure": "1999-12-31T22:43:34.000Z",
+                    "endOfFailure": "1999-12-31T23:00:14.000Z",
+                    "duration": 1000,
+                    "unit": "s"
+                }
+            ]
+        },
+        "voltageSags": {
+            "L1": 0,
+            "L2": 0,
+            "L3": 0
+        },
+        "voltageSwell": {
+            "L1": 0,
+            "L2": 0,
+            "L3": 0
+        },
+        "instantaneous": {
+            "current": {
+                "L1": {
+                    "reading": 1,
+                    "unit": "A"
+                },
+                "L2": {
+                    "reading": 2,
+                    "unit": "A"
+                },
+                "L3": {
+                    "reading": 3,
+                    "unit": "A"
+                }
+            },
+            "power": {
+                "positive": {
+                    "L1": {
+                        "reading": 0.001,
+                        "unit": "kW"
+                    },
+                    "L2": {
+                        "reading": 0.002,
+                        "unit": "kW"
+                    },
+                    "L3": {
+                        "reading": 0.003,
+                        "unit": "kW"
+                    }
+                },
+                "negative": {
+                    "L1": {
+                        "reading": 0.004,
+                        "unit": "kW"
+                    },
+                    "L2": {
+                        "reading": 0.005,
+                        "unit": "kW"
+                    },
+                    "L3": {
+                        "reading": 0.006,
+                        "unit": "kW"
+                    }
+                }
+            }
+        }
+    },
+    "gas": {
+        "deviceType": "003",
+        "equipmentId": "2345678901234567890123456789012345",
+        "timestamp": "2018-09-08T09:58:13.000Z",
+        "reading": 50,
+        "unit": "m3",
+        "valvePosition": null
+    }
+}
+
+Package received at Sat, 08 Sep 2018 09:58:16 GMT:
+{
+    "meterType": "EMULATOR",
+    "version": null,
+    "timestamp": "2018-09-08T09:58:16.000Z",
+    "equipmentId": "1234567890123456789012345678901234",
+    "textMessage": {
+        "codes": "",
+        "message": ""
+    },
+    "electricity": {
+        "received": {
+            "tariff1": {
+                "reading": 101.5,
+                "unit": "kWh"
+            },
+            "tariff2": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "actual": {
+                "reading": 0.5,
+                "unit": "kW"
+            }
+        },
+        "delivered": {
+            "tariff1": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "tariff2": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "actual": {
+                "reading": 0,
+                "unit": "kW"
+            }
+        },
+        "tariffIndicator": 1,
+        "threshold": null,
+        "switchPosition": null,
+        "numberOfPowerFailures": 1,
+        "numberOfLongPowerFailures": 2,
+        "longPowerFailureLog": {
+            "count": 1,
+            "log": [
+                {
+                    "startOfFailure": "1999-12-31T22:43:34.000Z",
+                    "endOfFailure": "1999-12-31T23:00:14.000Z",
+                    "duration": 1000,
+                    "unit": "s"
+                }
+            ]
+        },
+        "voltageSags": {
+            "L1": 0,
+            "L2": 0,
+            "L3": 0
+        },
+        "voltageSwell": {
+            "L1": 0,
+            "L2": 0,
+            "L3": 0
+        },
+        "instantaneous": {
+            "current": {
+                "L1": {
+                    "reading": 1,
+                    "unit": "A"
+                },
+                "L2": {
+                    "reading": 2,
+                    "unit": "A"
+                },
+                "L3": {
+                    "reading": 3,
+                    "unit": "A"
+                }
+            },
+            "power": {
+                "positive": {
+                    "L1": {
+                        "reading": 0.001,
+                        "unit": "kW"
+                    },
+                    "L2": {
+                        "reading": 0.002,
+                        "unit": "kW"
+                    },
+                    "L3": {
+                        "reading": 0.003,
+                        "unit": "kW"
+                    }
+                },
+                "negative": {
+                    "L1": {
+                        "reading": 0.004,
+                        "unit": "kW"
+                    },
+                    "L2": {
+                        "reading": 0.005,
+                        "unit": "kW"
+                    },
+                    "L3": {
+                        "reading": 0.006,
+                        "unit": "kW"
+                    }
+                }
+            }
+        }
+    },
+    "gas": {
+        "deviceType": "003",
+        "equipmentId": "2345678901234567890123456789012345",
+        "timestamp": "2018-09-08T09:58:16.000Z",
+        "reading": 50.1,
+        "unit": "m3",
+        "valvePosition": null
+    }
+}
+
+Package received at Sat, 08 Sep 2018 09:58:17 GMT:
+{
+    "meterType": "EMULATOR",
+    "version": null,
+    "timestamp": "2018-09-08T09:58:17.000Z",
+    "equipmentId": "1234567890123456789012345678901234",
+    "textMessage": {
+        "codes": "",
+        "message": ""
+    },
+    "electricity": {
+        "received": {
+            "tariff1": {
+                "reading": 102,
+                "unit": "kWh"
+            },
+            "tariff2": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "actual": {
+                "reading": 0.5,
+                "unit": "kW"
+            }
+        },
+        "delivered": {
+            "tariff1": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "tariff2": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "actual": {
+                "reading": 0,
+                "unit": "kW"
+            }
+        },
+        "tariffIndicator": 1,
+        "threshold": null,
+        "switchPosition": null,
+        "numberOfPowerFailures": 1,
+        "numberOfLongPowerFailures": 2,
+        "longPowerFailureLog": {
+            "count": 1,
+            "log": [
+                {
+                    "startOfFailure": "1999-12-31T22:43:34.000Z",
+                    "endOfFailure": "1999-12-31T23:00:14.000Z",
+                    "duration": 1000,
+                    "unit": "s"
+                }
+            ]
+        },
+        "voltageSags": {
+            "L1": 0,
+            "L2": 0,
+            "L3": 0
+        },
+        "voltageSwell": {
+            "L1": 0,
+            "L2": 0,
+            "L3": 0
+        },
+        "instantaneous": {
+            "current": {
+                "L1": {
+                    "reading": 1,
+                    "unit": "A"
+                },
+                "L2": {
+                    "reading": 2,
+                    "unit": "A"
+                },
+                "L3": {
+                    "reading": 3,
+                    "unit": "A"
+                }
+            },
+            "power": {
+                "positive": {
+                    "L1": {
+                        "reading": 0.001,
+                        "unit": "kW"
+                    },
+                    "L2": {
+                        "reading": 0.002,
+                        "unit": "kW"
+                    },
+                    "L3": {
+                        "reading": 0.003,
+                        "unit": "kW"
+                    }
+                },
+                "negative": {
+                    "L1": {
+                        "reading": 0.004,
+                        "unit": "kW"
+                    },
+                    "L2": {
+                        "reading": 0.005,
+                        "unit": "kW"
+                    },
+                    "L3": {
+                        "reading": 0.006,
+                        "unit": "kW"
+                    }
+                }
+            }
+        }
+    },
+    "gas": {
+        "deviceType": "003",
+        "equipmentId": "2345678901234567890123456789012345",
+        "timestamp": "2018-09-08T09:58:16.000Z",
+        "reading": 50.1,
+        "unit": "m3",
+        "valvePosition": null
+    }
+}
+
+Package received at Sat, 08 Sep 2018 09:58:18 GMT:
+{
+    "meterType": "EMULATOR",
+    "version": null,
+    "timestamp": "2018-09-08T09:58:18.000Z",
+    "equipmentId": "1234567890123456789012345678901234",
+    "textMessage": {
+        "codes": "",
+        "message": ""
+    },
+    "electricity": {
+        "received": {
+            "tariff1": {
+                "reading": 102.5,
+                "unit": "kWh"
+            },
+            "tariff2": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "actual": {
+                "reading": 0.5,
+                "unit": "kW"
+            }
+        },
+        "delivered": {
+            "tariff1": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "tariff2": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "actual": {
+                "reading": 0,
+                "unit": "kW"
+            }
+        },
+        "tariffIndicator": 1,
+        "threshold": null,
+        "switchPosition": null,
+        "numberOfPowerFailures": 1,
+        "numberOfLongPowerFailures": 2,
+        "longPowerFailureLog": {
+            "count": 1,
+            "log": [
+                {
+                    "startOfFailure": "1999-12-31T22:43:34.000Z",
+                    "endOfFailure": "1999-12-31T23:00:14.000Z",
+                    "duration": 1000,
+                    "unit": "s"
+                }
+            ]
+        },
+        "voltageSags": {
+            "L1": 0,
+            "L2": 0,
+            "L3": 0
+        },
+        "voltageSwell": {
+            "L1": 0,
+            "L2": 0,
+            "L3": 0
+        },
+        "instantaneous": {
+            "current": {
+                "L1": {
+                    "reading": 1,
+                    "unit": "A"
+                },
+                "L2": {
+                    "reading": 2,
+                    "unit": "A"
+                },
+                "L3": {
+                    "reading": 3,
+                    "unit": "A"
+                }
+            },
+            "power": {
+                "positive": {
+                    "L1": {
+                        "reading": 0.001,
+                        "unit": "kW"
+                    },
+                    "L2": {
+                        "reading": 0.002,
+                        "unit": "kW"
+                    },
+                    "L3": {
+                        "reading": 0.003,
+                        "unit": "kW"
+                    }
+                },
+                "negative": {
+                    "L1": {
+                        "reading": 0.004,
+                        "unit": "kW"
+                    },
+                    "L2": {
+                        "reading": 0.005,
+                        "unit": "kW"
+                    },
+                    "L3": {
+                        "reading": 0.006,
+                        "unit": "kW"
+                    }
+                }
+            }
+        }
+    },
+    "gas": {
+        "deviceType": "003",
+        "equipmentId": "2345678901234567890123456789012345",
+        "timestamp": "2018-09-08T09:58:16.000Z",
+        "reading": 50.1,
+        "unit": "m3",
+        "valvePosition": null
+    }
+}
+
+Package received at Sat, 08 Sep 2018 09:58:19 GMT:
+{
+    "meterType": "EMULATOR",
+    "version": null,
+    "timestamp": "2018-09-08T09:58:19.000Z",
+    "equipmentId": "1234567890123456789012345678901234",
+    "textMessage": {
+        "codes": "",
+        "message": ""
+    },
+    "electricity": {
+        "received": {
+            "tariff1": {
+                "reading": 103,
+                "unit": "kWh"
+            },
+            "tariff2": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "actual": {
+                "reading": 0.5,
+                "unit": "kW"
+            }
+        },
+        "delivered": {
+            "tariff1": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "tariff2": {
+                "reading": 0,
+                "unit": "kWh"
+            },
+            "actual": {
+                "reading": 0,
+                "unit": "kW"
+            }
+        },
+        "tariffIndicator": 1,
+        "threshold": null,
+        "switchPosition": null,
+        "numberOfPowerFailures": 1,
+        "numberOfLongPowerFailures": 2,
+        "longPowerFailureLog": {
+            "count": 1,
+            "log": [
+                {
+                    "startOfFailure": "1999-12-31T22:43:34.000Z",
+                    "endOfFailure": "1999-12-31T23:00:14.000Z",
+                    "duration": 1000,
+                    "unit": "s"
+                }
+            ]
+        },
+        "voltageSags": {
+            "L1": 0,
+            "L2": 0,
+            "L3": 0
+        },
+        "voltageSwell": {
+            "L1": 0,
+            "L2": 0,
+            "L3": 0
+        },
+        "instantaneous": {
+            "current": {
+                "L1": {
+                    "reading": 1,
+                    "unit": "A"
+                },
+                "L2": {
+                    "reading": 2,
+                    "unit": "A"
+                },
+                "L3": {
+                    "reading": 3,
+                    "unit": "A"
+                }
+            },
+            "power": {
+                "positive": {
+                    "L1": {
+                        "reading": 0.001,
+                        "unit": "kW"
+                    },
+                    "L2": {
+                        "reading": 0.002,
+                        "unit": "kW"
+                    },
+                    "L3": {
+                        "reading": 0.003,
+                        "unit": "kW"
+                    }
+                },
+                "negative": {
+                    "L1": {
+                        "reading": 0.004,
+                        "unit": "kW"
+                    },
+                    "L2": {
+                        "reading": 0.005,
+                        "unit": "kW"
+                    },
+                    "L3": {
+                        "reading": 0.006,
+                        "unit": "kW"
+                    }
+                }
+            }
+        }
+    },
+    "gas": {
+        "deviceType": "003",
+        "equipmentId": "2345678901234567890123456789012345",
+        "timestamp": "2018-09-08T09:58:19.000Z",
+        "reading": 50.2,
+        "unit": "m3",
+        "valvePosition": null
+    }
+}
+
